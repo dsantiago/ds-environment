@@ -1,7 +1,7 @@
 # standard python 2.7.x environment
 FROM publicisworldwide/python-conda
 
-MAINTAINER Publicis Worldwide
+MAINTAINER Diogo Santiago
 
 USER root
 
