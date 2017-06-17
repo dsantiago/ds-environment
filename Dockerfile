@@ -27,11 +27,11 @@ RUN conda install --yes \
     'matplotlib=1.4*' \
     'scipy=0.16*' \
     'seaborn=0.6*' \
-    'scikit-learn=0.17*' \
     'notebook=4.1*' \
     terminado \
-    pyzmq \
-    && conda clean -yt
+    pyzmq     
+
+ RUN conda install --yes 'scikit-learn=0.18*' && conda clean -yt
 
 USER root
 
