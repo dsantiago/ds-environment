@@ -33,7 +33,7 @@ RUN conda install --yes \
 
 RUN conda install --yes 'scikit-learn=0.18*'
 
-# Isatall Pygame
+# Install Pygame
 RUN conda install -c https://conda.anaconda.org/tlatorre pygame && conda clean -yt
 
 USER root
