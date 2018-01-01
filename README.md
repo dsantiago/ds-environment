@@ -4,7 +4,7 @@ Commands:
 
 * Building the Image
 ```docker
-docker build -t dsantiago/ds-environment
+docker build -t dsantiago/ds-environment .
 ```
 
 * Running a new container named **DS (Data Science)**
