@@ -31,7 +31,10 @@ RUN conda install --yes \
     terminado \
     pyzmq     
 
- RUN conda install --yes 'scikit-learn=0.18*' && conda clean -yt
+RUN conda install --yes 'scikit-learn=0.18*'
+
+# Isatall Pygame
+RUN conda install -c https://conda.anaconda.org/tlatorre pygame && conda clean -yt
 
 USER root
 
